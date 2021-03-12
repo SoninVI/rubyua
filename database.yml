@@ -17,7 +17,7 @@ development:
 
 production:
   <<: *default
-  database: RubyUA
+  database: myapp
   pool: 5
   timeout: 5000
   host: 185.65.244.39
