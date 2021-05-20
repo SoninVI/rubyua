@@ -7,19 +7,6 @@ default: &default
 development:
   <<: *default
   database: RubyUA
-  login: sonin
-  password: 15081986
+  login:
+  password: 
 
-
-#test:
-#  <<: *default
-#  database: db/test.sqlite3
-
-production:
-  <<: *default
-  database: myapp
-  pool: 5
-  timeout: 5000
-  host: 185.65.244.39
-  username: sonin
-  password: 15081986
